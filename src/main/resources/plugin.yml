@@ -1,0 +1,4 @@
+name: Randomenchants
+version: '${project.version}'
+main: com.github.treesontop.randomenchants.RandomEnchants
+api-version: 1.18
