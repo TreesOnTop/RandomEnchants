@@ -5,6 +5,9 @@ import com.github.treesontop.randomenchants.events.PlayerJoin;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.time.LocalDate;
+import java.time.ZoneId;
+
 public final class RandomEnchants extends JavaPlugin {
 
     private static RandomEnchants mainClass;
@@ -24,7 +27,7 @@ public final class RandomEnchants extends JavaPlugin {
         } else {
             Bukkit.getConsoleSender().sendMessage("§c[RandomEnchants] Plugin disabled!");
         }
-        Bukkit.getConsoleSender().sendMessage("§aMade by Tree#9562 https://ferry.cf/bread");
+        Bukkit.getConsoleSender().sendMessage("§aMade by Tree#9562 https://treesontop.tk/bread");
     }
 
     @Override

@@ -9,7 +9,7 @@ public class PlayerJoin implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         if (ConfigHandler.getConfig().getBoolean("Enabled")) {
-            event.getPlayer().sendMessage("§aMade by Tree#9562 https://ferry.cf/bread");
+            event.getPlayer().sendMessage("§aMade by Tree#9562 https://treesontop.tk/bread");
         }
     }
 }
